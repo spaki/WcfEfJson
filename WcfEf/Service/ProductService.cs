@@ -12,9 +12,9 @@ namespace WcfEf.Service
     {
         private readonly DefaultDbContext database;
 
-        public ProductService()
+        public ProductService(DefaultDbContext database)
         {
-            this.database = new DefaultDbContext("DefaultDbContext");
+            this.database = database;
         }
 
         public void Save(Product entity)

@@ -6,7 +6,7 @@ namespace WcfEf.DataContext
 {
     public class DefaultDbContext : DbContext
     {
-        public DefaultDbContext(string nameOrConnectionString) : base(nameOrConnectionString)
+        public DefaultDbContext() : base("DefaultDbContext")
         {
             Database.SetInitializer(new DropCreateDatabaseIfModelChanges<DefaultDbContext>());
         }
