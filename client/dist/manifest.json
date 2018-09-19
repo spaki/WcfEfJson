@@ -1,0 +1,17 @@
+{
+    "short_name": "SpakiCom",
+    "name": "Spaki e-commerce",
+    "display": "standalone",
+    "background_color": "#00204a",
+    "theme_color": "aliceblue",
+    "description": "Demo about an e-commece using PWA.",
+    "icons": [
+      {
+        "src": "icon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "index.html"
+  }
+  
